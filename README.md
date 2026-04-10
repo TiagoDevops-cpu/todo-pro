@@ -4,15 +4,9 @@ A modern and responsive To-Do application built with **Vanilla JavaScript**, foc
 
 ---
 
-## 📸 Preview
-
-<img src="https://via.placeholder.com/800x400.png?text=To-Do+Pro+Preview" alt="Project Preview" />
-
----
-
 ## 🌐 Live Demo
 
-👉 https://your-project.vercel.app
+👉 https://todo-pro-theta-woad.vercel.app/
 
 ---
 
