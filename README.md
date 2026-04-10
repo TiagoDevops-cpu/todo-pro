@@ -54,19 +54,6 @@ todo-pro/
 
 ---
 
-⚙️ How to Run Locally
-
-# Clone the repository
-git clone https://github.com/your-username/todo-pro.git
-
-# Enter the project folder
-cd todo-pro
-
-# Run a local server (example)
-npx serve
-
----
-
 🧩 Architecture Overview
 
 * **app.js** → Main controller (logic & events)
