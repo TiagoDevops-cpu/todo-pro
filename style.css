@@ -27,15 +27,17 @@ input {
   padding: 10px;
   border-radius: 5px;
   border: none;
+  font-size: 16px; /* Prevents zoom on iOS */
 }
 
 button {
-  padding: 10px;
+  padding: 10px 15px;
   border: none;
   background: #22c55e;
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  min-height: 44px; /* Touch-friendly */
 }
 
 button:hover {
@@ -50,9 +52,36 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 44px; /* Touch-friendly */
 }
 
 .completed {
   text-decoration: line-through;
   opacity: 0.6;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .container {
+    margin: 20px;
+    padding: 15px;
+    max-width: none;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .input-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
 }
